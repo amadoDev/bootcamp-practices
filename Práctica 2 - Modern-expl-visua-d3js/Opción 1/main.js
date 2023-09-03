@@ -7,7 +7,6 @@ const margin = {
   left: 40,
 }
 const elementPadding = 0.3
-// const gradiantColors = ['crimson', '#D13D73']
 const gradiantColors = ['tomato', 'crimson']
 
 const svg = d3.select('#chart').append('svg').attr('width', width).attr('height', height)
