@@ -119,6 +119,7 @@ function slider() {
     .on('onchange', val => {
       // hay que filtrar los datos según el valor que marquemos en el slider y luego actualizar la gráfica con update
       filterDataByYear(val)
+      d3.select('p#value-time').text(val)
       update(dataWinners)
     });
 
